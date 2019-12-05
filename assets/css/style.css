@@ -13,7 +13,6 @@ body {
     background-image: url("../images/herringbone.png");
 }
 
-/* Header mostly matches the footer */
 header {
     position: relative;
     left: 0;
@@ -31,7 +30,7 @@ header {
     clear: both;
 }
 
-/* Navigation bar must match sizing of main container */
+/* Navigation bar matches sizing of main container */
 .navigation {
     position: relative;
     max-width: 960px;
@@ -174,7 +173,7 @@ input:active {
 .textBlock {
     box-sizing: border-box;
     position: absolute;
-    bottom: 5px;
+    bottom: -15px;
     left: 10px;
     width: 100%;
     background-color: #4aaaa5;
@@ -183,6 +182,7 @@ input:active {
 
 h4 {
     color: #ffffff;
+    bottom: 0;
 }
 
 footer {
